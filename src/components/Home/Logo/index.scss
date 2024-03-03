@@ -1,0 +1,30 @@
+.logo-container{
+  z-index: 0;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  right: 10%;
+  bottom: 0%;
+  left: auto;
+  margin: auto;
+}
+
+.solid-logo{
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  // opacity: 0;
+  z-index: 1;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+  animation: rotateIn 1.5s 1s forwards;
+}
+
+.solid-logo:hover{
+  transform: rotateZ(30deg);
+}
